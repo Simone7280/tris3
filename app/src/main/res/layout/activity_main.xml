@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/inizio"
+    tools:context=".MainActivity">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:visibility="visible"
+        app:columnCount="3"
+        app:rowCount="3">
+
+        <Button
+            android:id="@+id/button00"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button01"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/button11"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:importantForAccessibility="no"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:textSize="24sp" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/g1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Ricomincia"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"
+         />
+
+</RelativeLayout>
